@@ -1,0 +1,29 @@
+/* styles.css */
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 20px;
+  transition: background-color 0.3s ease;
+  background-color: transparent; /* Mặc định là trong suốt */
+  color: red;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10;
+}
+
+.navbar-scrolled {
+  background-color: black; /* Màu đen khi cuộn */
+}
+.search-icon {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  padding-right: 200px;
+  color: #fff;
+}
+.search-icon :hover {
+  width: 35px;
+}
